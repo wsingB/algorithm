@@ -38,7 +38,7 @@ auto findMaxSubArray(const std::vector<int> &a) {
     return std::make_tuple(tempLeft, tempRight, maxSum);
 }
 void testfindMaxSubArray() {
-    std::vector<int> a = { 1, 2, -3, 4, -5, 6, 7, -8, 9, -10 };
+    std::vector<int> a = { 1, 2, -3, 4, -   5, 6, 7, -8, 9, -10 };
     auto result = findMaxSubArray(a);
     std::cout << "left: " << std::get<0>(result) << " right: " << std::get<1>(result) << " sum: " << std::get<2>(result) << std::endl;
 }
