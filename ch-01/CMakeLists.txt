@@ -3,4 +3,4 @@ project(ch_01)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(ch_01 main.cpp matrix.cpp matrix.h)
+add_executable(ch_01 main.cpp matrix.cpp matrix.h maxSubSum.cpp)
